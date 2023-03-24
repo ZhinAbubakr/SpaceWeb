@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contact Us</title>
+    <style>
+         body {
+        background-image: url("dd.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      ul {
+        display: flex;
+        list-style: none;
+      }
+
+      .navLink {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: bold;
+        padding: 0 20px;
+        transition: all 0.3s ease;
+      }
+
+      form {
+			max-width: 500px;
+			margin: 0 auto;
+			padding: 20px;
+			/* background-color: #f1f1f1; */
+			border-radius: 55px;
+			/* box-shadow: 0px 0px 10px #ccc; */
+		}
+
+		label {
+			display: block;
+			margin-bottom: 25px;
+		}
+
+		input[type=text], textarea {
+			width: 100%;
+			padding: 10px;
+			/* border: 1px solid #fdfdfd; */
+			border-radius: 12px;
+			box-sizing: border-box;
+			resize: vertical;
+            opacity: 0.7;
+            
+            
+        
+		}
+
+        
+
+		button[type=submit] {
+			background-color: #32589e;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 12px;
+			cursor: pointer;
+		}
+
+		/* button[type=submit]:hover {
+			background-color: #45a049;
+		} */
+
+		.container {
+			padding: 16px;
+			
+          
+		}
+
+		@media screen and (max-width: 600px) {
+			input[type=submit] {
+				width: 100%;
+			}
+		}
+
+        .cc{
+            margin-right: 55%;
+            margin-top: 6%;
+            
+        }
+		.inputText{
+			margin-top: 12px;
+		}
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="nav">
+        <ul>
+          <li><a class="navLink" href="SpaceWeb.html">Home</a></li>
+          <li><a class="navLink" href="About.html">About</a></li>
+          <li><a class="navLink" href="Planets.html">Planets</a></li>
+          <li><a class="navLink" href="Contact Us.html"><u>Contact Us</u></a></li>
+        </ul>
+      </div>
+
+     
+      
+	<form class="cc">
+		<div class="container">
+			
+			<input class="inputText" type="text"  name="name" placeholder="Full Name">
+
+			
+			<input class="inputText" type="text"  name="email" placeholder="Your Email">
+
+		
+			<textarea class="inputText"  name="message" placeholder="Message" style="height:200px"></textarea>
+
+			<button class="inputText" type="submit">Submit</button>
+		</div>
+    </form>
+    
+	
+
+
+    
+</body>
+</html>
