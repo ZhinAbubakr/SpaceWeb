@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Planets</title>
+
+    <style>
+
+      body {
+        background-image: url("BB.webp");
+        background-attachment: fixed;
+        /* background-repeat: no-repeat;
+        background-size: cover;
+        background-size: fill;
+        background-size: 100% 100%; */
+      }
+
+      .backgroundImage{
+      
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        z-index: -1;
+      }
+
+      .text {
+        font-size: 100px;
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: bold;
+        color: white;
+        padding-left: 10%;
+        margin-top: 8%;
+      }
+
+      h1 {
+        color: white;
+        text-align: left;
+      }
+
+      .nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      ul {
+        display: flex;
+        list-style: none;
+        margin-left: 12px;
+      }
+
+      .navLink {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: bold;
+        padding: 0 20px;
+        transition: all 0.3s ease;
+      }
+
+      .container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 5%;
+      }
+
+      .header1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        color: white;
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        width: 50%;
+      }
+
+      .header {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        color: white;
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        width: 50%;
+      }
+
+      .button {
+        background-color: #ffffff00;
+        color: white; /* set the text color */
+        /* border: none; remove the border */
+        /* padding: 15px 32px; set the padding */
+        text-align: center; /* center the text */
+        text-decoration: none; /* remove the underline */
+        display: inline-block; /* display the button as an inline block */
+        font-size: 16px; /* set the font size */
+        margin: 4px 2px; /* set the margin */
+        cursor: pointer; /* change the cursor to a pointer */
+        box-shadow: 0 0 10px rgb(255, 255, 255); /* add the glow effect */
+        transition: box-shadow 0.3s ease-in-out; /* add a transition effect */
+        border: 1px solid white;
+        border-radius: 8px;
+        height: 36px;
+        width: 87px;
+        align-content: center;
+        font-size: 12px;
+      }
+
+      button:hover {
+        box-shadow: 0 0 20px rgb(255, 255, 255); /* add the glow effect on hover */
+      }
+
+      .btn {
+        text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <!-- <div>
+      <img class="backgroundImage" src="planetsbg.png">
+    </div> -->
+
+    <div class="nav">
+      <ul>
+        <li>
+          <a class="navLink" href="SpaceWeb.html">Home</a>
+        </li>
+        <li><a class="navLink" href="About.html">About</a></li>
+        <li><a class="navLink" href="Planets.html"><u>Planets</u></a></li>
+        <li><a class="navLink" href="Contact Us.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <img src="mercury.png" />
+      <div class="header1">
+        <h2>Mercury</h2>
+        <p>
+          Mercury, the innermost planet of the solar system and the eighth in
+          size and mass. Its closeness to the Sun and its smallness make it the
+          most elusive of the planets visible to the unaided eye. Because its
+          rising or setting is always within about two hours of the Sunâ€™s, it is
+          never observable when the sky is fully dark.
+        </p>
+        <a href="Mercury.html">
+        <button class="button"><span class="btn">Learn More</span></button>
+        </a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="header">
+        <h2>Venus</h2>
+        <p>
+          Venus, second planet from the Sun and sixth in the solar system in
+          size and mass. No planet approaches closer to Earth than Venus; at its
+          nearest it is the closest large body to Earth other than the Moon.
+          Because Venusâ€™s orbit is nearer the Sun than Earthâ€™s, the planet is
+          always roughly in the same direction in the sky as the Sun and can be
+          seen only in the hours near sunrise or sunset.
+        </p>
+        <a href="Venus.html">
+          <button class="button"><span class="btn">Learn More</span></button>
+          </a>
+      </div>
+      <img src="venus.png" style="float: right" />
+    </div>
+
+    <div class="container">
+      <img src="earth1.png" />
+      <div class="header1">
+        <h2>Earth</h2>
+        <p>
+          Our home planet is the third planet from the Sun, and the only place
+          we know of so far thatâ€™s inhabited by living things. While Earth is
+          only the fifth largest planet in the solar system, it is the only
+          world in our solar system with liquid water on the surface. Just
+          slightly larger than nearby Venus, Earth is the biggest of the four
+          planets closest to the Sun, all of which are made of rock and metal.
+        </p>
+        <a href="Earth.html">
+          <button class="button"><span class="btn">Learn More</span></button>
+          </a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="header">
+        <h2>Mars</h2>
+        <p>
+          Mars, fourth planet in the solar system in order of distance from the
+          Sun and seventh in size and mass. It is a periodically conspicuous
+          reddish object in the night sky,Sometimes called the Red Planet, Mars
+          has long been associated with warfare and slaughter.
+        </p>
+        <a href="Mars.html">
+          <button class="button"><span class="btn">Learn More</span></button>
+          </a>
+      </div>
+      <img src="mars.png" style="float: right" />
+    </div>
+
+    <div class="container">
+      <div><img src="jupiter.png" /></div>
+      
+      <div class="header1">
+        <h2>Jupiter</h2>
+        <p>
+          Jupiter has a long history of surprising scientists â€“ all the way back
+          to 1610 when Galileo Galilei found the first moons beyond Earth. That
+          discovery changed the way we see the universe. Fifth in line from the
+          Sun, Jupiter is, by far, the largest planet in the solar system â€“ more
+          than twice as massive as all the other planets combined. Jupiter's
+          familiar stripes and swirls are actually cold, windy clouds of ammonia
+          and water, floating in an atmosphere of hydrogen and helium. Jupiterâ€™s
+          iconic Great Red Spot is a giant storm bigger than Earth that has
+          raged for hundreds of years.
+        </p>
+        <a href="Jupiter.html">
+          <button class="button"><span class="btn">Learn More</span></button>
+          </a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="header">
+        <h2>Saturn</h2>
+        <p>
+          Saturn, second largest planet of the solar system in mass and size and
+          the sixth nearest planet in distance to the Sun. In the night sky
+          Saturn is easily visible to the unaided eye as a non-twinkling point
+          of light. When viewed through even a small telescope, the planet
+          encircled by its magnificent rings is arguably the most sublime object
+          in the solar system.
+        </p>
+        <a href="Saturn.html">
+          <button class="button"><span class="btn">Learn More</span></button>
+          </a>
+      </div>
+      <img src="saturn 2.png"/>
+    </div>
+
+    <div class="container">
+      <img src="u2.png" width="30%"/>
+      <div class="header1">
+        <h2 style="margin-left: 5%">Uranus</h2>
+        <p style="margin-left: 5%">
+          Uranus, seventh planet in distance from the Sun and the least massive
+          of the solar systemâ€™s four giant, or Jovian, planets, which also
+          include Jupiter, Saturn, and Neptune At its brightest, Uranus is just
+          visible to the unaided eye as a blue-green point of light.
+        </p>
+        <a href="Uranus.html">
+        <button class="button" style="margin-left: 37%">
+          <span class="btn">Learn More</span>
+        </button>
+        </a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="header">
+        <h2>Neptune</h2>
+        <p>
+          Neptune, third most massive planet of the solar system and the eighth
+          and outermost planet from the Sun. Because of its great distance from
+          Earth, it cannot be seen with the unaided eye. With a small telescope,
+          it appears as a tiny, faint blue-green disk.
+        </p>
+        <a href="Neptun.html">
+          <button class="button"><span class="btn">Learn More</span></button>
+          </a>
+      </div>
+      <img src="neptun.png" style="float: right" />
+    </div>
+
+    <div class="container">
+      <img src="pluto.png" />
+      <div class="header1">
+        <h2>Pluto</h2>
+        <p>
+          Pluto, large, distant member of the solar system that formerly was
+          regarded as the outermost and smallest planet. It also was considered
+          the most recently discovered planet, having been found in 1930. In
+          August 2006 the International Astronomical Union (IAU), the
+          organization charged by the scientific community with classifying
+          astronomical objects, voted to remove Pluto from the list of planets
+          and give it the new classification of dwarf planet.
+        </p>
+        <a href="Pluto.html">
+          <button class="button"><span class="btn">Learn More</span></button>
+          </a>
+      </div>
+    </div>
+  </body>
+</html>
